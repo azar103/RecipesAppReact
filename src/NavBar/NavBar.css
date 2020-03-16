@@ -1,0 +1,92 @@
+.navbar_container {
+    width: 100%;
+    background-color: coral;
+    padding: 10px;
+    height: 78px;
+    color: white;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+
+
+ul  {
+    display: flex;
+    flex-direction: row;
+    list-style-type: none
+}
+
+.item {
+    font-size: 20px;
+    margin-left: 15px;
+    font-weight: bolder;
+    
+}
+
+.link {
+    text-decoration: none;
+    color: aliceblue;
+}
+.last-item{
+    background-color: antiquewhite;
+    border-radius: 15px;
+    color: coral;
+    padding: 5px;
+    min-width: 80px;
+    text-align: center;
+}
+.search-input{
+    border-radius: 15px;
+    height: 30px;
+    border: none;
+    align-self: center;
+    text-align: center;
+    margin-left: 590px;
+    width: 254px;
+}
+
+.search-input::placeholder{
+    color:"#FF0000";
+}
+#btn {
+    width: 100px;
+    color: coral;
+    height: 30px;
+    align-self: center;
+    border: none;
+    background-color: aliceblue;
+    border-radius: 15px;
+    font-weight: bold;
+    font-size: 12px;
+    margin-left: 400px;
+    margin-top: 19px;
+    padding: 5px;
+    cursor: pointer;
+
+}
+
+.ic_profile{
+      background: url('../Images/ic_profile.png');
+}
+@media only screen and (max-width: 1011px) {
+   
+     #btn {
+    
+        margin-left: 200px;
+    
+    }
+  }
+
+  @media only screen and (max-width: 991px) {
+  
+    .item {
+        font-size: 14px;
+    }
+    #btn {
+   
+       margin-left: 100px;
+   
+   }
+ }
+
